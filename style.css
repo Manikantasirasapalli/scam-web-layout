@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding:0;
+}
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:4vh;
+    font-weight:bold;
+    font-size:4vh;
+}
+.innercont-white{
+    justify-content:center;
+    margin-left:32vh;
+    background-size:cover;
+    position:relative;
+    bottom:170vh;
+    border-style: solid  1px;
+    border-color:black;
+    background-size: cover;
+    height:50vh;
+}
+.searchbar{
+    position:relative;
+    top:4vh;
+    border-radius:19px;
+    width:60%;
+    height:40px;
+    background-color:rgba(205, 202, 202, 0.596);
+    display: flex;
+    justify-content:left;
+    margin-left:14vh;  
+    padding: 5px 5px; 
+    background-size: cover;
+}
+.searchbar input{
+    background: transparent;
+    flex:1;
+    border:0;
+    outline:none;
+    color:rgb(52, 51, 51);
+    background-size: cover;
+}
+::placeholder{
+    color:rgb(61, 61, 62);
+}
+.searchbar button{
+    border:0;
+    border-radius:15px;
+    background-color:rgba(205, 202, 202, 0.596);
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    background-color:whitesmoke;
+    padding:2px;
+    background-size: cover;
+}
+.icon{
+    border:0;
+    outline:none;
+    background-color:transparent;
+    font-size:23px;
+    width:7vh;
+    transition:transform .3s ease-in-out;
+    background-size: cover;
+}
+.icon:hover{
+    transform:scale(1.3);
+}
+
+.icon2{
+    width:25vh;
+    background:transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    border:0;
+    outline:none;
+    opacity:80%;
+    font-size:18px;
+    position: relative;
+    top:10vh;
+    transition:transform .3s ease-in-out;
+    padding:1vh;
+    margin-left:3vh;
+    text-align: left;
+    background-size: cover;
+}
+.icon2:hover{
+    transform:scale(1.2);
+}
+.icon3{
+    width:25vh;
+    background:transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    border:0;
+    outline:none;
+    opacity:80%;
+    font-size:18px;
+    position: relative;
+    bottom:80vh;
+    transition:0.3s;
+    padding:1vh;
+    margin-left:3vh;
+    text-align: left;
+    opacity:0.6;
+    background-size: cover;
+}
+.icon3:hover{
+    opacity:1;
+}
+.line{
+    border:none;
+    height:1px;
+    background-color: #ccc;
+    width:30vh;
+    margin-right:200vh;
+    position:relative;
+    top:10vh;
+    opacity:1;
+    background-size: cover;
+}
+
+.sidehead{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold; 
+    font-size:20px; 
+    position:relative;
+    margin-left:2vh;
+    top:10vh;
+    margin-bottom:20px;
+    background-size: cover;
+}
+.sidehead2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold; 
+    font-size:20px; 
+    position:relative;
+    margin-left:2vh;
+    display: flex;
+    align-items:top;
+    bottom:80vh;
+    background-size: cover;
+}
+.border{
+    border-style:solid;
+    border-width:medium;
+    color:black;
+    height:15vh;
+    width:90vh;
+    margin:3vh;
+    border-radius:10px;
+    margin-left:3vh;
+    background-size: cover;
+}
+.searchbar2{
+
+    border-radius:19px;
+    width:90%;
+    height:40px;
+    background-color:rgba(205, 202, 202, 0.596);
+    display: flex;
+    justify-content:left;
+    margin-left:7vh;  
+    background-size: cover;
+}
+.searchbar2 input{
+    background: transparent;
+    flex:0;
+    border:0;
+    outline:none;
+    color:rgb(52, 51, 51);
+    background-size: cover;
+}
+::placeholder{
+    color:rgb(61, 61, 62);
+}
+.searchbar2 button{
+    border:0;
+    border-radius:15px;
+    width:60px;
+    height:30px;
+    cursor:pointer;
+    background-color:transparent;
+    padding:10px 60px;
+    margin-left:40vh;
+    text-decoration: underline;
+    background-size: cover;
+
+}
+.img{
+    margin-left:2vh;
+    height:4vh;
+    width:4vh;
+    border-radius:10px;
+    background-size: cover;
+}
+.img2{
+    margin-left:2vh;
+    height:5vh;
+    width:5vh;
+    border-radius:10px;
+    background-size: cover;
+}
+.img3{
+    margin-left:2vh;
+    height:5vh;
+    width:5vh;
+    border-radius:10px;
+    background-size: cover;
+}
+.bii{
+    position:relative;
+    top:1vh;
+    left:3vh;
+    margin-left:1px;
+    background-color: transparent;
+    border:0;
+    outline:none;
+    transition:0.3s;
+    opacity:0.5;
+    border:1px solid grey;
+    border-radius:10px;
+    perspective: 50px;
+    background-size: cover;
+
+}
+.bii:hover{
+    opacity:2;
+    transform:rotateY(145deg);
+    transition:all 1s ease;
+}
+.contheadings{
+    margin:3vh;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:20px;
+    font-weight:bold 2px;
+    background-size: cover;
+}
+.contheadings2{
+    margin:2vh;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:20px;
+    font-weight:bold 2px;
+    background-size: cover;
+}
+.contsubheadings{
+    margin-left:4vh;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    background-color:transparent;
+    border:0;
+    outline:none;
+    position: relative;
+    bottom:1vh;
+    opacity:0.8;
+    width:25vh;
+    text-align:left;
+    background-size: cover;
+}
+.bii2{
+
+    left:3vh;
+    margin-left:1px;
+    border:0;
+    border-radius:5px;
+    font-size:20px;
+    background-size: cover;
+}
+.body-img{
+    height:30vh;
+    width:38vh;
+    margin-left:2.5vh;
+    border-radius:10px;
+    position:relative;
+    bottom:3vh;
+    background-size:cover;
+}
+.like{
+    
+    margin-left: 2.5vh;
+    border:0;
+    outline:none;
+    background-color:transparent;
+    font-size:17px;
+    opacity:0.6;
+    transition:0.3s;
+    background-size: cover;
+}
+.like:hover{
+    opacity:2;
+}
+.body-img2{
+    height:15vh;
+    width:15h;
+    margin-left:2.5vh;
+    border-radius:10px;
+    position:relative;
+    bottom:3vh;
+    background-size:cover;
+}
